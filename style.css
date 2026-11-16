@@ -1,152 +1,208 @@
+/* ===== 1. The whole page ===== */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #fff8ef;
-    color: #2b2b2b;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1f4d3a;
-    padding: 16px 40px;
-}
-.logo {
-    color: #f6a623;
-    font-size: 22px;
-    text-decoration: none;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 24px;
-}
-nav a:hover,
-nav a.active {
-    color: #f6a623;
-}
-.hero {
-    text-align: center;
-    padding: 60px 20px 20px;
-}
-.hero h1 {
-    color: #1f4d3a;
-    font-size: 38px;
-    margin: 0 0 12px;
-}
-.hero p {
-    font-size: 18px;
-    margin-bottom: 28 px;
-}
-.hero-img {
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    margin: 40px auto 0;
-    border-radius: 16px;
-}
-.button {
-    background-color: #f6a623;
-    color: #1f4d3a;
-    padding: 12px 26px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
-}
-.button:hover {
-    background-color: #1f4d3a;
-    color: white;
-}
-.features {
-    text-align: center;
-    padding: 30px 40px 60px;
-}
-.features h2 {
-    color: #1f4d3a;
-}
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.card {
-    flex: 1;
-    min-width: 200px;
-    background-color: white;
-    padding: 24px;
-    border-radius: 12px;
-    border-top: 5px solid #f6a623;
-}
-.card h3 {
-    color: #1f4d3a;
-    margin-top: 0;
-}
-.footer {background-color: #1f4d3a;
-    color: white;
-    text-align: center;
-    padding: 14px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8ef;
+  color: #2b2b2b;
 }
 
-/* page 2 /*
-.page {
-max-width: 800px;
-margin: 0 auto;
-padding: 40px 20px;
+/* ===== 2. Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f4d3a;
+  padding: 16px 40px;
 }
+
+.logo {
+  color: #f6a623;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f6a623;
+}
+
+/* ===== 3. Hero + button ===== */
+.hero {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+.hero h1 {
+  color: #1f4d3a;
+  font-size: 38px;
+  margin: 0 0 12px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto 0;
+  border-radius: 16px;
+}
+
+.button {
+  background-color: #f6a623;
+  color: #1f4d3a;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1f4d3a;
+  color: white;
+}
+
+/* ===== 4. Feature cards ===== */
+.features {
+  text-align: center;
+  padding: 30px 40px 60px;
+}
+
+.features h2 {
+  color: #1f4d3a;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  border-top: 5px solid #f6a623;
+}
+
+.card h3 {
+  color: #1f4d3a;
+  margin-top: 0;
+}
+
+/* ===== 5. Footer ===== */
+.footer {
+  background-color: #1f4d3a;
+  color: white;
+  text-align: center;
+  padding: 14px;
+}
+
+/* ===== 6. Page 2: the page box ===== */
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
 .page h1,
 .page h2 {
-color: #1f4d3a;
+  color: #1f4d3a;
 }
+
 /* ===== 7. Menu table ===== */
 .menu {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white;
-    margin-bottom: 40px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-bottom: 40px;
 }
+
 .menu caption {
-    font-weight: bold;
-    padding: 10px;
+  font-weight: bold;
+  padding: 10px;
 }
+
 .menu th {
-    background-color: #1f4d3a;
-    color: white;
-    padding: 12px;
-    text-align: left;
+  background-color: #1f4d3a;
+  color: white;
+  padding: 12px;
+  text-align: left;
 }
+
 .menu td {
-    padding: 12px;
-    border-bottom: 1px solid #eeeeee;
+  padding: 12px;
+  border-bottom: 1px solid #eeeeee;
 }
+
 .menu tbody tr:hover {
-    background-color: #fff1dc;
+  background-color: #fff1dc;
 }
+
 /* ===== 8. Order form ===== */
 .order-form {
-    background-color: white;
-    padding: 28px;
-    border-radius: 12px;
+  background-color: white;
+  padding: 28px;
+  border-radius: 12px;
 }
+
 .order-form label {
-    display: block;
-    font-weight: bold;
-    margin-top: 16px;
-    margin-bottom: 6px;
+  display: block;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 6px;
 }
+
 .order-form input,
 .order-form select,
 .order-form textarea {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border: 2px solid #dddddd;
-    border-radius: 8px;
-    font-size: 15px;
-    font-family: Arial, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #dddddd;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
 }
+
 .order-form button {
-    margin-top: 24px;
+  margin-top: 24px;
+}
+
+/* ===== 9. Gallery (added by collaborator) ===== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery figure {
+  margin: 0;
+  padding: 12px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.gallery figcaption {
+  font-weight: bold;
+  color: #1f4d3a;
+  margin-top: 8px;
 }
