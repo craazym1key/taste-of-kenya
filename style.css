@@ -19,15 +19,15 @@ body {
 nav a {
     color: white;
     text-decoration: none;
-    marigin-left: 24px;
+    margin-left: 24px;
 }
 nav a:hover,
 nav a.active {
-    color #f6a623
+    color: #f6a623;
 }
 .hero {
     text-align: center;
-    padding: 60px 20px 20px
+    padding: 60px 20px 20px;
 }
 .hero h1 {
     color: #1f4d3a;
@@ -88,4 +88,65 @@ nav a.active {
     color: white;
     text-align: center;
     padding: 14px;
+}
+
+/* page 2 /*
+.page {
+max-width: 800px;
+margin: 0 auto;
+padding: 40px 20px;
+}
+.page h1,
+.page h2 {
+color: #1f4d3a;
+}
+/* ===== 7. Menu table ===== */
+.menu {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.menu caption {
+    font-weight: bold;
+    padding: 10px;
+}
+.menu th {
+    background-color: #1f4d3a;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+.menu td {
+    padding: 12px;
+    border-bottom: 1px solid #eeeeee;
+}
+.menu tbody tr:hover {
+    background-color: #fff1dc;
+}
+/* ===== 8. Order form ===== */
+.order-form {
+    background-color: white;
+    padding: 28px;
+    border-radius: 12px;
+}
+.order-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+.order-form button {
+    margin-top: 24px;
 }

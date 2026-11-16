@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taste of Kenya | Menu & Orders</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <a href="index.html" class="logo">Taste of Kenya</a>
+            <nav>   
+                <a href="index.html" >Home</a>
+                <a href="order.html" class="ative">Menu $amp; Orders</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+        </header>
+                <main class="page">
+                    <h1>Menu &amp; Orders</h1>
+                    <p>Check today's menu, then fill in the form to place your order.</p>
+                    <table class="menu">
+                        <caption>Today's Menu</caption>
+                        <thead>
+                            <tr>
+                            <th>Dish</th>
+                            <th>What's in it</th>
+                            <th>Price (KSh)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                        <tr>
+                                        <td>Ugali &amp; Sukuma</td>
+                                        <td>Maize meal with fried kale</td>
+                                        <td>200</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Nyama Choma</td>
+                                        <td>Roasted goat meat with kachumbari</td>
+                                        <td>650</td>
+                                        </tr>
+                                        <td>Pilau</td>
+                            <td>Spiced rice with beef</td>
+                            <td>350</td>
+                            </tr>
+                            <tr>
+                            <td>Chapati & Beans</td>
+                            <td>Two soft chapatis with bean stew</td>
+                            <td>250</td>
+                            </tr>
+                            <tr>
+                            <td>Mandazi (3 pieces)</td>
+                            <td>Sweet fried dough, great with tea</td>
+                            <td>100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                            <h2>Place Your Order</h2>
+                                <form class="order-form">
+                                    <label for="name">Your name</label>
+                                    <input type="text" id="name" placeholder="e.g. Michael" required>
+
+                                    <label for="phone">Phone number</label>
+                                    <input type="tel" id="phone" placeholder="07xx xxx xxx" required>
+
+                                    <label for="dish">Choose a dish</label>
+                                    <select id="dish">
+
+                                        <option>Ugali &amp; Sukuma</option>
+                                        <option>Nyama Choma</option>
+                                        <option>Pilau</option>
+                                        <option>Chapati &amp; Beans</option>
+
+                                        <option>Mandazi (3 pieces)</option>
+                                    </select>
+
+                                    <label for="plates">How many plates?</label>
+                                    <input type="number" id="plates" min="1" max="10" value="1">
+                                    
+                                    <label for="notes">Anything else?</label>
+                                    <textarea id="notes" rows="3" placeholder="e.g. extra kachumbari, please"></textarea>
+
+                                    <button type="submit" class="button">Place Order</button>
+                                </form>
+                </main>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone">
+            <footer class="footer">
+                <p>&copy; 2026 Taste of Kenya &middot; Built by Michael</p>
+            </footer>
+    </body>
+</html>
