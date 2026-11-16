@@ -1,4 +1,5 @@
 # Taste of Kenya
+
 A simple website for a Kenyan food business, built with **HTML and CSS** by Michael.
 
 ## Pages
@@ -26,5 +27,7 @@ Hi [Harrison]! Please create the third page, **gallery.html**, following my desi
 4. Save the photos in the images folder. Add any new CSS at the bottom of style.css.
 5. Commit, push to your fork and open a Pull Request to my repository.
 I will review your Pull Request and merge it. Thank you!
+
 ## How to open it
+
 Open index.html in a browser, or right-click it in VS Code and choose **Open with Live Server**.
